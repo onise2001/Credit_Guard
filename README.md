@@ -1,8 +1,9 @@
 # Credit Guard
-Credit Guard is a Python-based application designed to help manage and secure credit card information. I think the problem was ambiguous with it's requirements for the CardViewSet so I wrote it two different ways, therefore there are also two serializers, one for each viewset, also two different URLs, one with DefaultRouter and other as regular url.
+Credit Guard is a Python-based application designed to help manage and secure credit card information. This application provides three main functionalities, card creation, card number validation and retriving cards list based on card's user-creator. I think the problem was ambiguous with it's requirements for the CardViewSet so I wrote it two different ways, therefore there are also two serializers, one for each viewset, also two different URLs, one with DefaultRouter and other as regular url.
 
 ## App Features
 - **User Management:** Add, update, and delete user information.
+- **Card Number Validation:** This project validates credit card number with an algorithm that is a variant of the broader concept of modular exponentiation.
 - **Credit Card Management:** Store, retrieve, and manage credit card details securely.
 
 ## Installation
